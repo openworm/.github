@@ -21,10 +21,11 @@ for cat in allrefs:
     refs = allrefs[cat]
     for name in refs.keys():
         ref = refs[name]
+        summary = summaries[name] if name in summaries else ""
 
         print("Looking at: %s in %s"%(ref, name))
 
-        info += '| <a href="https://github.com/%s">%s</a> |'%(ref,name)
+        info += '| <a href="https://github.com/%s">%s</a><br/><i><sup>%s</sup></i> |'%(ref,name,summary)
 
         wfs = ['ci.yml'] if not name in workflows else workflows[name]
         dev = ''
