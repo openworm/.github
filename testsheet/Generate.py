@@ -3,7 +3,7 @@ from RepoInfo import *
 import os
 
 info = """
-## Tests on OpenWorm repositories
+## Tests on OpenWorm active repositories
 """
 
 count = 0

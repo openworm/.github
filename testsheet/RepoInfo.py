@@ -38,7 +38,7 @@ add_repo('NeuroPAL', 'openworm/NeuroPAL', ['omv-ci.yml', 'test-notebooks.yml'], 
 add_repo('Blender2NeuroML', 'openworm/Blender2NeuroML', ['ci-test.yml'], 'Conversion script to bring neuron models created in Blender into NeuroML format')
 
 
-add_repo('C elegans Neuromechanical Gait Modulation', 'OpenSourceBrain/CelegansNeuromechanicalGaitModulation', ['build.yml'], 'C. elegans neuromechanical gait modulation model from Boyle, Berri and Cohen 2012')
+add_repo('C. elegans Neuromechanical Gait Modulation', 'OpenSourceBrain/CelegansNeuromechanicalGaitModulation', ['build.yml'], 'C. elegans neuromechanical gait modulation model from Boyle, Berri and Cohen 2012')
 add_repo('2D worm body model', 'openworm/CE_locomotion', ['ci-make.yml'], 'Neuromechanical model of locomotion in C. elegans, originally developed by Eduardo Izquerdo, Erick Olivares and Randall Beer')
 
 otherrefs['NeuroML Documentation'] = 'NeuroML/Documentation'
