@@ -10,6 +10,7 @@ count = 0
 
 
 allrefs = {'Core OpenWorm': owrefs,
+           'Documentation': owdocs,
            'Related repositories': otherrefs,}
 
 for cat in allrefs:
@@ -31,7 +32,10 @@ for cat in allrefs:
         dev = ''
         for wf in wfs:
             info += '  [![OMV](https://github.com/%s/actions/workflows/%s/badge.svg)](https://github.com/%s/actions/workflows/%s) '%(ref,wf,ref,wf)
-            dev += '  [![OMV](https://github.com/%s/actions/workflows/%s/badge.svg?branch=development)](https://github.com/%s/actions/workflows/%s) '%(ref,wf,ref,wf)
+            if 'pages' in wf:
+                dev += '-'
+            else:
+                dev += '  [![OMV](https://github.com/%s/actions/workflows/%s/badge.svg?branch=development)](https://github.com/%s/actions/workflows/%s) '%(ref,wf,ref,wf)
 
         info += '  | %s |'%dev
 

@@ -1,6 +1,8 @@
 import collections
 
 owrefs = collections.OrderedDict()
+owdocs = collections.OrderedDict()
+
 otherrefs = collections.OrderedDict()
 
 workflows = {}
@@ -40,6 +42,12 @@ add_repo('Blender2NeuroML', 'openworm/Blender2NeuroML', ['ci-test.yml'], 'Conver
 
 add_repo('C. elegans Neuromechanical Gait Modulation', 'OpenSourceBrain/CelegansNeuromechanicalGaitModulation', ['build.yml'], 'C. elegans neuromechanical gait modulation model from Boyle, Berri and Cohen 2012')
 add_repo('2D worm body model', 'openworm/CE_locomotion', ['ci-make.yml'], 'Neuromechanical model of locomotion in C. elegans, originally developed by Eduardo Izquerdo, Erick Olivares and Randall Beer')
+
+owdocs['OpenWorm main website'] = 'openworm/openworm.github.io'
+workflows['OpenWorm main website'] = ['pages/pages-build-deployment']
+
+owdocs['OpenWorm Documentation'] = 'openworm/openworm_docs'
+workflows['OpenWorm Documentation'] = ['pages/pages-build-deployment']
 
 otherrefs['NeuroML Documentation'] = 'NeuroML/Documentation'
 workflows['NeuroML Documentation'] = ['prs.yaml', 'publish.yml']
