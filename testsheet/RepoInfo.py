@@ -33,6 +33,7 @@ add_repo('Muscle model - Boyle & Cohen 2008', 'openworm/muscle_model', ['omv-ci.
 
 add_repo('Muscle model - Johnson & Mailler 2015', 'openworm/JohnsonMailler_MuscleModel', ['omv-ci.yml', 'non-omv.yml'], 'C. elegans muscle model from Johnson & Mailler 2015')
 
+add_repo('AWCon and RMD neuron models - Nicoletti et al. 2019', 'openworm/NicolettiEtAl2019_NeuronModels', ['omv-ci.yml', 'non-omv.yml'], 'Biophysical modeling of C. elegans neurons: Single ion currents and whole-cell dynamics of AWCon and RMD')
 
 add_repo('NeuroPAL', 'openworm/NeuroPAL', ['omv-ci.yml', 'test-notebooks.yml'], 'Scripts to analyse and convert NeuroPAL datasets')
 
