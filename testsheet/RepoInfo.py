@@ -69,7 +69,14 @@ add_repo(
     "AWCon and RMD neuron models - Nicoletti et al. 2019",
     "openworm/NicolettiEtAl2019_NeuronModels",
     ["omv-ci.yml", "non-omv.yml"],
-    "Biophysical modeling of C. elegans neurons: Single ion currents and whole-cell dynamics of AWCon and RMD",
+    "Biophysical modeling of _C. elegans_ neurons: Single ion currents and whole-cell dynamics of AWCon and RMD",
+)
+
+add_repo(
+    "Biophysical models of _C. elegans_ motor and interneurons - Nicoletti et al. 2024",
+    "openworm/NicolettiEtAl2024_MN_IN",
+    ["omv-ci.yml"],
+    "Biophysical modeling of the whole-cell dynamics of C. elegans motor and interneurons families",
 )
 
 add_repo(
@@ -89,7 +96,7 @@ add_repo(
 
 
 add_repo(
-    "C. elegans Neuromechanical Gait Modulation",
+    "_C. elegans_ Neuromechanical Gait Modulation",
     "OpenSourceBrain/CelegansNeuromechanicalGaitModulation",
     ["build.yml"],
     "C. elegans neuromechanical gait modulation model from Boyle, Berri and Cohen 2012",
