@@ -5,6 +5,8 @@ owdocs = collections.OrderedDict()
 
 otherrefs = collections.OrderedDict()
 
+legacyrefs = collections.OrderedDict()
+
 workflows = {}
 summaries = {}
 
@@ -24,7 +26,6 @@ add_repo('c302', 'openworm/c302', ['ci.yml', 'non_omv.yml'], 'The c302 framework
 
 add_repo('Sibernetic', 'openworm/sibernetic', ['ci-build.yml'], "A C++/OpenCL implementation of the PCISPH algorithm supplemented with a set of biomechanics related features applied to C. elegans locomotion")
 
-add_repo('owmeta', 'openworm/owmeta', ['scheduled-master-build.yml', 'scheduled-dev-build.yml', 'dev-test.yml'], 'Unified, simple data access python library for data & facts about C. elegans anatomy')
 
 
 add_repo('Hodgkin Huxley Tutorial', 'openworm/hodgkin_huxley_tutorial', ['omv-ci.yml', 'non-omv.yml'], 'A repository containing code for a number of tutorials on the Hodgkin Huxley model, including an interactive Jupyter notebook')
@@ -57,3 +58,6 @@ otherrefs['OMV'] = 'OpenSourceBrain/osb-model-validation'
 otherrefs['neuroConstruct'] = 'neuralensemble/neuroConstruct'
 otherrefs['NeuroML 2'] = 'NeuroML/NeuroML2'
 otherrefs['pyNeuroML'] = 'NeuroML/pyNeuroML'
+
+legacyrefs['owmeta'] = 'openworm/owmeta', 
+workflows['owmeta'] = ['scheduled-master-build.yml', 'scheduled-dev-build.yml', 'dev-test.yml']
