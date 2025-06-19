@@ -59,5 +59,5 @@ otherrefs['neuroConstruct'] = 'neuralensemble/neuroConstruct'
 otherrefs['NeuroML 2'] = 'NeuroML/NeuroML2'
 otherrefs['pyNeuroML'] = 'NeuroML/pyNeuroML'
 
-legacyrefs['owmeta'] = 'openworm/owmeta', 
+legacyrefs['owmeta'] = 'openworm/owmeta'
 workflows['owmeta'] = ['scheduled-master-build.yml', 'scheduled-dev-build.yml', 'dev-test.yml']

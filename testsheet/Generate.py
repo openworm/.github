@@ -11,7 +11,8 @@ count = 0
 
 allrefs = {'Core OpenWorm': owrefs,
            'Documentation': owdocs,
-           'Related repositories': otherrefs,}
+           'Related repositories': otherrefs,
+           'Legacy repositories': legacyrefs,}
 
 for cat in allrefs:
     info += '\n### %s\n\n'%cat
