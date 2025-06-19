@@ -43,6 +43,13 @@ add_repo(
     "A C++/OpenCL implementation of the PCISPH algorithm supplemented with a set of biomechanics related features applied to C. elegans locomotion",
 )
 
+add_repo(
+    "_C. elegans_ Connectome Toolbox",
+    "openworm/ConnectomeToolbox",
+    ["ci-pages.yml", "non_omv.yml"],
+    "Information on published connectomics data related to C. elegans.",
+)
+
 
 add_repo(
     "Hodgkin Huxley Tutorial",
